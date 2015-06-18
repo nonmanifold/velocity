@@ -1081,6 +1081,9 @@ return function (global, window, document, undefined) {
                     hookNames = hookTemplate[0].split(" ");
 
                     for (var i in hookNames) {
+                        if(!hookNames.hasOwnProperty(i)){
+                          break;
+                        }
                         var fullHookName = rootProperty + hookNames[i],
                             hookPosition = i;
 
