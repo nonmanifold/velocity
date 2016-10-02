@@ -1,6 +1,5 @@
 {
   "name": "velocity",
-  "version": "1.2.2",
   "homepage": "http://velocityjs.org",
   "authors": [
     { "name" : "Julian Shapiro",
@@ -27,11 +26,8 @@
     "LICENSE",
     "*.md"
   ],
-  "dependencies": {
-    "jquery": "*"
-  },
   "repository" :
-  { 
+  {
     "type" : "git",
     "url" : "http://github.com/julianshapiro/velocity.git"
   }
