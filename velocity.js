@@ -1082,7 +1082,7 @@ return function (global, window, document, undefined) {
 
                     for (var i in hookNames) {
                         if(!hookNames.hasOwnProperty(i)){
-                          break;
+                          continue;
                         }
                         var fullHookName = rootProperty + hookNames[i],
                             hookPosition = i;
